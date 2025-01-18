@@ -20,7 +20,7 @@ const LoginPage = () => {
       <Form
         onSubmit={handleLogin}
         resolver={zodResolver(validationSchema)}
-        defaultValues={{ email: "", password: "" }}
+        defaultValues={{ email: "test@gmail.com", password: "aaaa" }}
       >
         <div className="flex flex-col space-y-4">
           <InputField name="email" placeholder="Enter password" type="email" />
